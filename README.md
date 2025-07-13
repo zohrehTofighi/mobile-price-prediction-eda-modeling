@@ -1,6 +1,11 @@
 # mobile-price-prediction-eda-modeling
 
-INFORMATION about Dataset
+##  Project Summary
+
+This project aims to predict the price range of mobile phones using supervised machine learning techniques. It includes detailed exploratory data analysis (EDA) and model training using classification algorithms.
+
+
+## INFORMATION About Dataset
 
 ✔️ Battery_power = Total energy a battery can store in one time measured in mAh.
 
@@ -43,3 +48,42 @@ INFORMATION about Dataset
 ✔️ Wifi = Has wifi or not. | 1: Has, 0: Doesn't have
 
 ✔️ Price_range = This is the target variable. | 3: Very High Cost, 2: High Cost, 1: Medium Cost, 0: Low Cost
+
+## Libraries Used
+
+pandas, numpy, matplotlib, seaborn, sklearn
+
+
+## Workflow
+
+# EDA:
+
+Checked for null values
+
+Analyzed distributions of key features
+
+Plotted relationships between features and price range
+
+# Feature Engineering:
+
+No explicit feature creation, but exploratory insights were used to inform modeling
+
+# Modeling:
+
+Trained and evaluated classification models (Random Forest, etc.)
+
+Used accuracy score for evaluation
+
+## Visualizations
+
+RAM vs Price Range (RAM is strongly correlated)
+
+Correlation heatmaps
+
+Count plots of features like 4G, dual sim, front/back camera, etc.
+
+## Insights
+
+RAM is the most important factor for predicting price range
+
+Features like 4G, internal memory, and screen resolution also influence the price significantly
